@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "tables": [
+    {
+      "tableSchema": "schema.json",
+      "url": "https://zenodo.org/record/13751/files/trophic.links.2014-11-10.csv",
+      "dcterms:bibliographicCitation": "Gray, C., Ma, A., Perkins, D., Hudson, L., Figueroa, D., & Woodward, G. (2015). Database of trophic interactions [Data set]. Zenodo. http://doi.org/10.5281/zenodo.13751",
+      "doi": "10.5281/zenodo.13751",
+      "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002470",
+      "interactionTypeName": "eats",
+      "headerRowCount": 1,
+      "null": [
+        "", "NA"
+      ]
+    }
+  ]
+}

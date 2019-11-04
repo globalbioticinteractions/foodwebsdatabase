@@ -1,0 +1,104 @@
+{
+  "columns": [
+    {
+      "name": "link.id",
+      "titles": "link.id",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonName",
+      "titles": "resource",
+      "datatype": "string"
+    },
+    {
+      "name": "targetLifeStage",
+      "titles": "resource.lifestage",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonName",
+      "titles": "consumer",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceLifeStage",
+      "titles": "consumer.lifestage",
+      "datatype": "string"
+    },
+    {
+      "name": "basisOfRecord",
+      "titles": "link.evidence",
+      "datatype": "string"
+    },
+    {
+      "name": "source.id",
+      "titles": "source.id",
+      "datatype": "string"
+    },
+    {
+      "name": "referenceCitation",
+      "titles": "full.source",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonGenus",
+      "titles": "res.genus",
+      "datatype": "string"
+    },
+    {
+      "name": "res.subfamily",
+      "titles": "res.subfamily",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonFamily",
+      "titles": "res.family",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonOrder",
+      "titles": "res.order",
+      "datatype": "string"
+    },
+    {
+      "name": "targetTaxonClass",
+      "titles": "res.class",
+      "datatype": "string"
+    },
+    {
+      "name": "res.category",
+      "titles": "res.category",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonGenus",
+      "titles": "con.genus",
+      "datatype": "string"
+    },
+    {
+      "name": "con.subfamily",
+      "titles": "con.subfamily",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonFamily",
+      "titles": "con.family",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonOrder",
+      "titles": "con.order",
+      "datatype": "string"
+    },
+    {
+      "name": "sourceTaxonClass",
+      "titles": "con.class",
+      "datatype": "string"
+    },
+    {
+      "name": "con.category",
+      "titles": "con.cateogory",
+      "datatype": "string"
+    }
+  ]
+}
